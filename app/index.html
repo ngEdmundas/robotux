@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" ng-app="Robotux">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    
+    <link rel="apple-touch-icon" href="/img/app-logo-iOS-57x57.png" />
+    <link rel="apple-touch-startup-image" href="/img/ipad-startup-landscape-loading.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)" />
+
+    <link rel="apple-touch-startup-image" href="img/ipad-startup-portrait-loading.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)" />
+
+    <title>Robotux</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap-2.0.4.min.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap-responsive-2.0.4.min.css"/>
+
+    <link rel="stylesheet" href="css/app.css"/>
+  </head>
+  <body ng-controller="HomeController">
+    <div class='robotux'>
+      <div ng-view class='views'></div>
+    </div>
+
+    <script src="lib/jQuery/jquery-1.7.2.min.js"></script>
+    <script src="lib/underscore/underscore-1.3.3.min.js"></script>
+
+    <script src="lib/bootstrap/bootstrap-2.0.4.min.js"></script>
+    <script src="lib/angular/angular-1.0.1.min.js"></script>
+    <script src="lib/angular/angular-bootstrap-1.0.1.min.js"></script>
+    <script src="lib/angular/angular-cookies-1.0.1.min.js"></script>
+    <script src="lib/angular/angular-loader-1.0.1.min.js"></script>
+    <script src="lib/angular/angular-resource-1.0.1.min.js"></script>
+    <script src="lib/angular/angular-sanitize-1.0.1.min.js"></script>
+
+    <script src="js/init.js"></script>
+    <script src="js/mod/app.js"></script>
+    <script src="js/mod/filters.js"></script>
+    <script src="js/ctl/robotux.js"></script>
+    <script src="js/ctl/part1.js"></script>
+    <script src="js/dir/directives.js"></script>
+
+  </body>
+</html>
